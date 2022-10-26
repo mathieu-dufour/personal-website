@@ -1,7 +1,8 @@
 import React from 'react';
+import Section from '../components/Section';
 
-const Experience = () => {
-    return <div>Experience</div>;
-};
+function Experience() {
+    return <Section bgColor="LIGHT">Experience</Section>;
+}
 
 export default Experience;

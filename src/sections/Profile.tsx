@@ -1,7 +1,12 @@
 import React from 'react';
+import Section from '../components/Section';
 
-const Profile = () => {
-    return <div>Profile</div>;
-};
+function Profile() {
+    return (
+        <Section bgColor="DARK" fullHeight>
+            Profile
+        </Section>
+    );
+}
 
 export default Profile;

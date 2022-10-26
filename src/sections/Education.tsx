@@ -1,7 +1,8 @@
 import React from 'react';
+import Section from '../components/Section';
 
-const Education = () => {
-    return <div>Education</div>;
-};
+function Education() {
+    return <Section bgColor="DARK">Education</Section>;
+}
 
 export default Education;

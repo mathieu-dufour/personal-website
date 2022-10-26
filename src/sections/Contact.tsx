@@ -1,7 +1,8 @@
 import React from 'react';
+import Section from '../components/Section';
 
-const Contact = () => {
-    return <div>Contact</div>;
-};
+function Contact() {
+    return <Section bgColor="DARK">Contact</Section>;
+}
 
 export default Contact;
